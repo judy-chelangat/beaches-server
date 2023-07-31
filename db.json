@@ -1,74 +1,205 @@
 {
-  "users": [
+  "hotels": [
     {
       "id": 1,
-      "first_name": "Justina",
-      "last_name": "Ginglell",
-      "email": "jginglell0@networkadvertising.org",
-      "gender": "Female"
+      "image_url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
+      "name": "Luxury Hotel",
+      "address": "123 Main Street, City A",
+      "description": "Experience luxury at its finest in our elegant hotel.",
+      "price": 300,
+      "rating": 4.8,
+      "amenities": ["Swimming Pool", "Spa", "Gym", "Fine Dining"]
     },
     {
       "id": 2,
-      "first_name": "Marion",
-      "last_name": "Jenman",
-      "email": "mjenman1@surveymonkey.com",
-      "gender": "Male"
+      "image_url": "https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "name": "Comfort Inn",
+      "address": "456 Park Avenue, City B",
+      "description": "Enjoy a comfortable stay with all modern amenities.",
+      "price": 150,
+      "rating": 4.2,
+      "amenities": ["Wi-Fi", "Breakfast", "Parking"]
     },
     {
       "id": 3,
-      "first_name": "Alfy",
-      "last_name": "Begin",
-      "email": "abegin2@list-manage.com",
-      "gender": "Female"
+      "image_url": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "name": "Seaside Resort",
+      "address": "789 Beach Road, City C",
+      "description": "Relax and unwind with stunning views of the ocean.",
+      "price": 250,
+      "rating": 4.5,
+      "amenities": ["Beach Access", "Poolside Bar", "Water Sports"]
     },
     {
       "id": 4,
-      "first_name": "Karney",
-      "last_name": "Zanussii",
-      "email": "kzanussii3@hao123.com",
-      "gender": "Male"
+      "image_url": "https://images.unsplash.com/photo-1535827841776-24afc1e255ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
+      "name": "Mountain Retreat",
+      "address": "101 Mountain View, City D",
+      "description": "Escape to the serenity of the mountains and reconnect with nature.",
+      "price": 180,
+      "rating": 4.0,
+      "amenities": ["Hiking Trails", "Bonfire", "Scenic Views"]
     },
     {
       "id": 5,
-      "first_name": "Reid",
-      "last_name": "Schapero",
-      "email": "rschapero4@timesonline.co.uk",
-      "gender": "Male"
+      "image_url": "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1113&q=80",
+      "name": "Budget Inn",
+      "address": "222 Economy Street, City E",
+      "description": "Affordable and convenient accommodations for travelers on a budget.",
+      "price": 80,
+      "rating": 3.5,
+      "amenities": ["Free Wi-Fi", "Parking"]
     },
     {
       "id": 6,
-      "first_name": "Dorine",
-      "last_name": "Braybrookes",
-      "email": "dbraybrookes5@gov.uk",
-      "gender": "Female"
+      "image_url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "name": "Family Paradise",
+      "address": "567 Fun Avenue, City F",
+      "description": "Create lasting memories with your family in our fun-filled hotel.",
+      "price": 220,
+      "rating": 4.6,
+      "amenities": ["Kids Club", "Playground", "Family Suites"]
     },
     {
       "id": 7,
-      "first_name": "Sarena",
-      "last_name": "Frape",
-      "email": "sfrape6@alexa.com",
-      "gender": "Female"
+      "image_url": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=749&q=80",
+      "name": "Business Suites",
+      "address": "890 Corporate Road, City G",
+      "description": "Perfect accommodations for business travelers with all the essentials.",
+      "price": 190,
+      "rating": 4.3,
+      "amenities": ["Business Center", "Meeting Rooms", "High-Speed Internet"]
     },
     {
       "id": 8,
-      "first_name": "Malva",
-      "last_name": "Pierse",
-      "email": "mpierse7@usda.gov",
-      "gender": "Female"
+      "image_url": "https://images.unsplash.com/photo-1543968332-f99478b1ebdc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "name": "Historic Inn",
+      "address": "121 Historic Lane, City H",
+      "description": "Step back in time and experience the charm of our historic inn.",
+      "price": 170,
+      "rating": 4.7,
+      "amenities": ["Antique Furnishings", "Cultural Tours"]
     },
     {
       "id": 9,
-      "first_name": "Rania",
-      "last_name": "Dablin",
-      "email": "rdablin8@state.gov",
-      "gender": "Female"
+      "image_url": "https://images.unsplash.com/photo-1573047330191-fb342b1be381?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "name": "Urban Retreat",
+      "address": "555 Downtown Avenue, City I",
+      "description": "Experience the excitement of the city while enjoying a relaxing stay.",
+      "price": 280,
+      "rating": 4.4,
+      "amenities": ["City Tours", "Rooftop Bar"]
     },
     {
       "id": 10,
-      "first_name": "Ingrim",
-      "last_name": "Offen",
-      "email": "ioffen9@slideshare.net",
-      "gender": "Male"
+      "image_url": "https://images.unsplash.com/photo-1598598795009-f80c5072e665?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+      "name": "Spacious Suites",
+      "address": "444 Comfort Street, City J",
+      "description": "Stretch out and enjoy the extra space in our luxurious suites.",
+      "price": 320,
+      "rating": 4.9,
+      "amenities": ["Jacuzzi", "Balcony", "Room Service"]
+    },
+    {
+      "id": 11,
+      "image_url": "https://images.unsplash.com/photo-1544124499-58912cbddaad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
+      "name": "Cozy Cabin",
+      "address": "333 Woodsy Lane, City K",
+      "description": "Embrace the coziness of our cabin nestled in the woods.",
+      "price": 200,
+      "rating": 4.1,
+      "amenities": ["Fireplace", "Nature Walks"]
+    },
+    {
+      "id": 12,
+      "image_url": "https://images.unsplash.com/photo-1620332372374-f108c53d2e03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80",
+      "name": "Pet-Friendly Haven",
+      "address": "777 Pet Avenue, City L",
+      "description": "Bring your furry friends along to our pet-friendly hotel.",
+      "price": 210,
+      "rating": 4.3,
+      "amenities": ["Pet Park", "Pet-Sitting Services"]
+    },
+    {
+      "id": 13,
+      "image_url": "https://images.unsplash.com/photo-1562790351-d273a961e0e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80",
+      "name": "Beachfront Paradise",
+      "address": "666 Ocean Boulevard, City M",
+      "description": "Wake up to the sound of waves in our beachfront paradise.",
+      "price": 280,
+      "rating": 4.7,
+      "amenities": ["Private Beach", "Beachfront Dining"]
+    },
+    {
+      "id": 14,
+      "image_url": "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "name": "Charming Boutique Hotel",
+      "address": "888 Quaint Street, City N",
+      "description": "Experience personalized service in our charming boutique hotel.",
+      "price": 230,
+      "rating": 4.6,
+      "amenities": ["Art Gallery", "Wine Tasting"]
+    },
+    {
+      "id": 15,
+      "image_url": "https://images.unsplash.com/photo-1543321269-9d86d3680e1c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "name": "Ski Lodge",
+      "address": "999 Snowy Lane, City O",
+      "description": "Hit the slopes and then unwind in our cozy ski lodge.",
+      "price": 260,
+      "rating": 4.2,
+      "amenities": ["Ski Rentals", "Hot Tub"]
+    },
+    {
+      "id": 16,
+      "image_url": "https://images.unsplash.com/photo-1590912550138-e79ac2c5b8e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
+      "name": "Wellness Retreat",
+      "address": "333 Serenity Street, City P",
+      "description": "Rejuvenate your mind and body in our wellness-focused hotel.",
+      "price": 320,
+      "rating": 4.9,
+      "amenities": ["Yoga Classes", "Meditation Garden", "Healthy Dining"]
+    },
+    {
+      "id": 17,
+      "image_url": "https://images.unsplash.com/photo-1614568112072-770f89361490?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+      "name": "Modern Urban Hotel",
+      "address": "555 City Center, City Q",
+      "description": "Stay in style with our sleek and modern urban hotel.",
+      "price": 210,
+      "rating": 4.4,
+      "amenities": ["Rooftop Pool", "Fitness Center"]
+    },
+    {
+      "id": 18,
+      "image_url": "https://images.unsplash.com/photo-1574060603747-421196bce3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+      "name": "Rustic Lodge",
+      "address": "777 Countryside Road, City R",
+      "description": "Escape to the countryside and experience rustic charm.",
+      "price": 180,
+      "rating": 4.0,
+      "amenities": ["Campfire", "Horseback Riding"]
+    },
+    {
+      "id": 19,
+      "image_url": "https://images.unsplash.com/photo-1570213489059-0aac6626cade?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "name": "Tropical Resort",
+      "address": "444 Palm Beach, City S",
+      "description": "Experience a tropical paradise with white sandy beaches.",
+      "price": 300,
+      "rating": 4.8,
+      "amenities": ["Beachfront", "Tropical Gardens"]
+    },
+    {
+      "id": 20,
+      "image_url": "https://images.unsplash.com/photo-1613561323381-fd3eb1a73ee8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "name": "Chateau Elegance",
+      "address": "101 Vineyard Lane, City T",
+      "description": "Indulge in the luxurious elegance of our chateau-style hotel.",
+      "price": 380,
+      "rating": 4.9,
+      "amenities": ["Wine Cellar", "Gourmet Dining"]
     }
   ]
 }
+
